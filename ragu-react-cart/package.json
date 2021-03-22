@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "ragu-cli static --file ragu-mfe/cart-count.js --baseurl https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-cart --outputPath ../ragu-react-cart-build"
+  },
   "dependencies": {
     "ragu-cli": "^0.0.41",
     "ragu-react-server-adapter": "^0.0.25",
