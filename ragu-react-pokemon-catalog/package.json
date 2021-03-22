@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "ragu-cli static --directory src/ragu-mfe --baseurl https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog --outputPath ../ragu-react-pokemon-catalog-build",
+    "build": "ragu-cli static --directory src/ragu-mfe --baseurl https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog --outputPath ./",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

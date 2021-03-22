@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "ragu-cli static --file ragu-mfe/cart-count.js --baseurl https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-cart --outputPath ../ragu-react-cart-build"
+    "build": "ragu-cli static --file ragu-mfe/cart-count.js --baseurl https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-cart --outputPath ./"
   },
   "dependencies": {
     "@babel/core": "^7.13.10",
