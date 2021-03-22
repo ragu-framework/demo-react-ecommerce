@@ -14,7 +14,6 @@ jobs:
           npm install yarn
           yarn --cwd app-shell
           yarn --cwd app-shell build
-          ls
           yarn --cwd ragu-react-cart
           yarn --cwd ragu-react-cart build
           yarn --cwd ragu-react-pokemon-catalog
