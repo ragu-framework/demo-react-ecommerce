@@ -30,12 +30,12 @@ const Content = styled.main`
 `;
 
 function App() {
-  const catalogURL = "http://localhost:4200/components/catalog";
+  const catalogURL = "https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog/catalog.json";
   const [mainContent, setMainContent] = useState(catalogURL);
 
   useEffect(() => {
     window.addEventListener('show-pokemon', (e) => {
-      setMainContent("http://localhost:4200/components/pokemon-detail?id=" + e.detail.id);
+      setMainContent("https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog/pokemon-detail?id=" + e.detail.id);
     });
   })
 
@@ -50,7 +50,7 @@ function App() {
             Welcome to Ragu React Cart
           </a>
         </h1>
-        <RaguComponent src="http://localhost:3200/" />
+        <RaguComponent src="https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-cart/cart-count.json" />
       </Head>
 
       <Content>
