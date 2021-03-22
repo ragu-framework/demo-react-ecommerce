@@ -35,7 +35,7 @@ function App() {
 
   useEffect(() => {
     window.addEventListener('show-pokemon', (e) => {
-      setMainContent("https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog/pokemon-detail?id=" + e.detail.id);
+      setMainContent("https://ragu-framework.github.io/demo-react-ecommerce/ragu-react-pokemon-catalog/pokemon-detail.json?id=" + e.detail.id);
     });
   })
 
